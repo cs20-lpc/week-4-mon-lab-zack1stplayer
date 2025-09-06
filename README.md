@@ -4,7 +4,10 @@
 
 You will be partially implementing the List ADT as a linked list. The `List` abstract class is already given to you, along with the header file for the `LinkedList` class, and a skeleton of its implementation file. A few operations have been given temporary, empty implementations. We will discuss how to do these in the next lecture.
 
-You are also in charge of writing your own driver program (__Make sure to call your file driver.cpp__) to test your `LinkedList` class. Be thorough with your testing by checking all the operations in different scenarios and with various data types.
+You are also in charge of writing your own driver program (__Make sure to call your file driver.cpp__) to test your `LinkedList` class. Be thorough with your testing by checking all the operations in different scenarios and with various data types.  
+
+### Submit your test results for various scenarios in Canvas - 10 points for test coverage.
+With each test case indicate what scenario you are testing. Just adding similar tests won't count.
 
 ## Notes
 
@@ -19,4 +22,5 @@ You are also in charge of writing your own driver program (__Make sure to call y
 throw string("message goes here");
 ```
 - The `<<` stream insertion operator has been overloaded for the `LinkedList` class, meaning you can use `cout` on your `LinkedList` object to print out the nodes inside
+
 
