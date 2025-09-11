@@ -20,6 +20,9 @@ class LinkedList : public List<T> {
         // a pointer to the front of the list
         Node* head;
 
+        // helper function
+        virtual Node* getNode(int);
+
     public:
         // default constructor
         LinkedList();
@@ -41,13 +44,13 @@ class LinkedList : public List<T> {
 
         // insert the given element (argument 2) at
         // the given position (argument 1)
-        virtual void insert(int, const T&) override { }
+        virtual void insert(int, const T&) override;
 
         // determine if the list currently empty
         virtual bool isEmpty() const override;
 
         // remove the element at the given position (argument)
-        virtual void remove(int) override { }
+        virtual void remove(int) override;
 
         // replace the element at the given position (argument 1) with
         // the value given (argument 2)

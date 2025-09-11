@@ -1,0 +1,15 @@
+PS C:\Users\zack1\OneDrive\Documents\GitHub\week-4-mon-lab-zack1stplayer>  & 'c:\Users\zack1\.vscode\extensions\ms-vscode.cpptools-1.26.3-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-w1rncukc.4bz' '--stdout=Microsoft-MIEngine-Out-ovuxgc3y.gqo' '--stderr=Microsoft-MIEngine-Error-tefpyyjp.4cq' '--pid=Microsoft-MIEngine-Pid-ft0ryc23.0tf' '--dbgExe=C:\msys64\ucrt64\bin\gdb.exe' '--interpreter=mi' 
+20
+10
+10 --> 20 --> 30 --> 40 --> 50
+
+10 --> 20 --> 30 --> 50
+
+90 --> 10 --> 20 --> 30 --> 80 --> 50
+
+getNode(): Node out of range
+getNode(): Node out of range
+getElement(): Element out of range
+10 --> 20 --> 30 --> 80 --> 50
+
+List is empty, no elements to display.
